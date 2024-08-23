@@ -199,6 +199,18 @@ enter_gt: enter_gt {
                 bindings = <&kp LS(ENTER)>, <&kp GREATER_THAN>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
             };
+            colon_gt: colon_gt {
+                        compatible = "zmk,behavior-mod-morph";
+                        #binding-cells = <0>;
+                        bindings = <&kp COLON>, <&kp GREATER_THAN>;
+                        mods = <(MOD_LSFT|MOD_RSFT)>;
+                    };
+                     semi_grave: semi_grave {
+                                     compatible = "zmk,behavior-mod-morph";
+                                     #binding-cells = <0>;
+                                     bindings = <&kp SEMI>, <&kp GRAVE>;
+                                      mods = <(MOD_LSFT|MOD_RSFT)>;
+                                 };
 
 };
 
@@ -208,8 +220,8 @@ compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
- &bootloader     &kp LC(MINUS)    &kp LEFT_BRACKET     &esc_lt     &lpar_lbrace  &fontout_zoomout              &none                                                                &mo 3  &fontin_zoomin  &rpar_rbrace    &enter_gt    &kp RIGHT_BRACKET            &kp LC(PLUS)  &none
-   &kp SEMI      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp I      &kp O     &kp P             &kp J   &equal_tilde
+ &bootloader     &kp LC(MINUS)    &kp LEFT_BRACKET     &esc_lt     &lpar_lbrace  &fontout_zoomout              &none                                                                &mo 3  &fontin_zoomin  &rpar_rbrace    &colon_gt    &kp RIGHT_BRACKET            &kp LC(PLUS)  &none
+   &semi_grave      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp I      &kp O     &kp P             &kp J   &equal_tilde
    &mt LSHFT ENTER       &kp A     &kp S     &kp D      &lt 3 F   &kp G               &none  &none  &none                    &none  &none  &none   &kp H   &kp U      &kp L     &kp K  &kp SINGLE_QUOTE    &mt RSHFT ENTER
  &kp LALT  &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_grave         &dash_plus  &kp RALT
      &kp LGUI  &none  &none  &term_sidebar  &kp TAB                    &lt 2 SPACE    &mt LCTRL BACKSLASH   &kp END                  &kp PG_DN  &kp SLASH  &kp BSPC          &kp DELETE   &ref_run  &none         &none      &kp RGUI
