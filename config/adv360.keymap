@@ -27,14 +27,6 @@
     #include "version.dtsi"
 
 
-&lt {
-    tapping-term-ms = <200>;
-
-};
-&mt {
-   tapping-term-ms = <300>;
-};
-
 
 dash_plus: dash_plus {
                 compatible = "zmk,behavior-mod-morph";
