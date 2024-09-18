@@ -252,6 +252,18 @@ enter_gt: enter_gt {
                                                                                      bindings = <&kp COMMA>, <&caps_word>;
                                                                                      mods = <(MOD_LSFT|MOD_RSFT)>;
                                                                                  };
+                                                                                 rpar_rbrack: rpar_rbrack {
+                                                                                                 compatible = "zmk,behavior-mod-morph";
+                                                                                                 #binding-cells = <0>;
+                                                                                                 bindings = <&kp RPAR>, <&kp RIGHT_BRACKET>;
+                                                                                                 mods = <(MOD_LSFT|MOD_RSFT)>;
+                                                                                             };
+                                                                                             lpar_lbrack: lpar_lbrack {
+                                                                                                             compatible = "zmk,behavior-mod-morph";
+                                                                                                             #binding-cells = <0>;
+                                                                                                             bindings = <&kp LPAR>, <&kp LEFT_BRACKET>;
+                                                                                                             mods = <(MOD_LSFT|MOD_RSFT)>;
+                                                                                                         };
 
 };
 
