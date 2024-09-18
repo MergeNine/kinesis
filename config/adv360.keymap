@@ -234,6 +234,12 @@ enter_gt: enter_gt {
                                                          bindings = <&kp SEMI>, <&kp GREATER_THAN>;
                                                          mods = <(MOD_LSFT|MOD_RSFT)>;
                                                      };
+                                                     comma_colon: comma_colon {
+                                                                     compatible = "zmk,behavior-mod-morph";
+                                                                     #binding-cells = <0>;
+                                                                     bindings = <&kp COMMA>, <&kp COLON>;
+                                                                     mods = <(MOD_LSFT|MOD_RSFT)>;
+                                                                 };
 
 };
 
@@ -244,9 +250,9 @@ compatible = "zmk,keymap";
         default_layer {
             bindings = <
  &kp LS(LESS_THAN)     &kp LC(MINUS)    &kp LEFT_BRACKET     &esc_lt     &lpar_lbrace  &fontout_zoomout              &none             &mo 3  &fontin_zoomin  &rpar_rbrace &semi_gt &kp RIGHT_BRACKET            &kp LC(PLUS)  &kp LS(GREATER_THAN)
-   &equal_colon      &kp Q     &kp W     &kp E      &kp R   &kp T               &bootloader                                                                &none   &kp Y   &kp I      &kp O     &kp P     &kp J &caps_tilde
+   &caps_tilde      &kp Q     &kp W     &kp E      &kp R   &kp T               &bootloader                                                                &none   &kp Y   &kp I      &kp O     &kp P     &kp J &equal_grave
    &mt LSHFT ENTER      &kp A     &kp S     &kp D      &lt 3 F   &kp G               &none  &none  &none                    &none  &none  &none   &kp H   &kp U      &kp L     &kp K  &kp SINGLE_QUOTE    &mt RSHFT ENTER
- &equal_colon  &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_grave         &dash_plus  &caps_tilde
+ &none &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_colon         &dash_plus  &none
      &kp LGUI  &none  &none  &term_sidebar  &kp TAB                    &lt 2 SPACE    &mt LCTRL BACKSLASH   &kp END                  &kp PG_DN  &kp SLASH  &kp BSPC          &kp DELETE   &ref_run  &none         &none      &kp RGUI
             >;
         };
