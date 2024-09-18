@@ -17,7 +17,7 @@
     [
        "&kp LS(LESS_THAN)",    "&kp LC(MINUS)",   "&kp LEFT_BRACE",    "&esc_lt",    "&lpar_lbrack ", "&fontout_zoomout",             "&none",                       "&mo 3","&fontin_zoomin", "&rpar_rbrack",    "&semi_gt",   "&kp RIGHT_BRACE",           "&kp LC(PLUS)", "&kp LS(GREATER_THAN)",
          "&kp BACKSLASH",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&bootloader",                                                                            "&none",  "&kp Y",  "&kp I",     "&kp O","&kp P",            "&kp J",  "&kp SLASH",
-         "&mt RSHFT ENTER",     "&kp A",    "&kp S",    "&kp D",     "&lt 3 F",  "&kp G",              "&none", "&none", "&kp LC(LA(ESC)",               "&kp RC(RA(DELETE)", "&none",  "&none",  "&kp H",  "&kp U",     "&kp L",    "&kp K", "&equal_colon",    "&mt RSHFT ENTER",
+         "&mt RSHFT ENTER",     "&kp A",    "&kp S",    "&kp D",     "&lt 3 F",  "&kp G",              "&none", "&none", "&kp LC(LA(ESC))",               "&kp RC(RA(DELETE))", "&none",  "&none",  "&kp H",  "&kp U",     "&kp L",    "&kp K", "&equal_colon",    "&mt RSHFT ENTER",
        "&none",     "&kp Z",    "&kp X",    "&kp V",     "&kp C",  "&kp B",                                    "&kp HOME",                     "&kp PG_UP",                            "&kp N",  "&kp M", "&dot_under",  "&comma_caps",         "&dash_plus", "&none",
 
            "&kp LGUI", "&none", "&kp LA(ENTER)", "&term_sidebar", "&kp TAB",                     "&lt 2 SPACE",   "&mt LCTRL GRAVE",  "&kp END",                     "&kp PG_DN", "&kp SLASH", "&kp BSPC",           "&kp DELETE",  "&ref_run", "&kp LS(F6)",         "&none",
