@@ -222,6 +222,12 @@ enter_gt: enter_gt {
                                                  bindings = <&caps_word>, <&kp TILDE>;
                                                  mods = <(MOD_LSFT|MOD_RSFT)>;
                                              };
+                                              semi_gt: semi_gt {
+                                                         compatible = "zmk,behavior-mod-morph";
+                                                         #binding-cells = <0>;
+                                                         bindings = <&kp SEMI>, <&kp GREATER_THAN>;
+                                                         mods = <(MOD_LSFT|MOD_RSFT)>;
+                                                     };
 
 };
 
