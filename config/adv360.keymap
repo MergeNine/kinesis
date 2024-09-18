@@ -27,6 +27,13 @@
     #include "version.dtsi"
 
 
+&lt {
+    tapping-term-ms = <200>;
+
+};
+&mt {
+   tapping-term-ms = <300>;
+};
 
 
 dash_plus: dash_plus {
@@ -237,7 +244,7 @@ compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
- &bootloader     &kp LC(MINUS)    &kp LEFT_BRACKET     &esc_lt     &lpar_lbrace  &fontout_zoomout              &none             &mo 3  &fontin_zoomin  &rpar_rbrace &semi_gt &kpRIGHT_BRACKET            &kp LC(PLUS)  &none
+ &bootloader     &kp LC(MINUS)    &kp LEFT_BRACKET     &esc_lt     &lpar_lbrace  &fontout_zoomout              &none             &mo 3  &fontin_zoomin  &rpar_rbrace &semi_gt &kp RIGHT_BRACKET            &kp LC(PLUS)  &none
    &equal_colon      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp I      &kp O     &kp P             &kp J   &caps_tilde
    &mt LSHFT ENTER       &kp A     &kp S     &kp D      &lt 3 F   &kp G               &none  &none  &none                    &none  &none  &none   &kp H   &kp U      &kp L     &kp K  &kp SINGLE_QUOTE    &mt RSHFT ENTER
  &semi_grave  &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_grave         &dash_plus  &equal_tilde
