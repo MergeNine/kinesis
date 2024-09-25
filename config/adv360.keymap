@@ -273,7 +273,7 @@ compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
- &kp LS(LESS_THAN)     &kp LC(MINUS)    &kp LEFT_BRACE     &esc_lt     &lpar_lbrace  &fontout_zoomout              &none             &mo 3  &fontin_zoomin  &rpar_rbrace &semi_gt &kp RIGHT_BRACE            &kp LC(PLUS)  &kp LS(GREATER_THAN)
+ &kp LS(LESS_THAN)     &kp LC(MINUS)    &kp LEFT_BRACK    &esc_lt     &lpar_lbrace  &fontout_zoomout              &none             &mo 3  &fontin_zoomin  &rpar_rbrace &semi_gt &kp RIGHT_BRACK            &kp LC(PLUS)  &kp LS(GREATER_THAN)
    &none     &kp Q     &kp W     &kp E      &kp R   &kp T               &bootloader                                                                &none   &kp Y   &kp I      &kp O     &kp P     &kp J &none
    &equal_colon      &kp A     &kp S     &kp D      &lt 3 F   &kp G               &none  &none  &kp LC(LA(ESC))                &kp RC(RA(DELETE))  &none  &none   &kp H   &kp U      &kp L     &kp K  &kp SINGLE_QUOTE  &kp ENTER
  &mt LSHFT ENTER &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_caps         &dash_plus  &mt RSHFT ENTER
