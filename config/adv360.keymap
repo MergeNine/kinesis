@@ -275,7 +275,7 @@ compatible = "zmk,keymap";
  &kp LS(LESS_THAN)     &kp LC(MINUS)    &kp LEFT_BRACKET    &esc_lt     &lpar_lbrace  &fontout_zoomout              &none             &none  &fontin_zoomin  &rpar_rbrace &semi_gt &kp RIGHT_BRACKET            &kp LC(PLUS)  &kp LS(GREATER_THAN)
    &equal_colon     &kp Q     &kp W     &kp E      &kp R   &kp T               &bootloader                                                                &none   &kp Y   &kp I      &kp O     &kp P     &kp J &kp SLASH
    &kp LSHFT      &kp A     &kp S     &kp D      &lt 3 F   &kp G               &none  &none  &kp LC(LA(ESC))                &kp RC(RA(DELETE))  &none  &none   &kp H   &kp U      &kp L     &kp K  &kp SINGLE_QUOTE  &kp RSHFT
- &kp LCTRL &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_caps         &dash_plus  &kp RCTRL
+ &equal_colon &kp Z     &kp X     &kp V      &kp C   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp M  &dot_under   &comma_caps         &dash_plus  &kp SLASH
      &kp LGUI  &none  &kp LA(ENTER)  &term_sidebar  &kp TAB                    &lt 2 SPACE    &mt LALT BACKSLASH   &kp END                  &kp PG_DN  &kp ENTER  &kp BSPC          &kp DELETE   &ref_run  &kp LS(F6)         &none      &kp RGUI
             >;
         };
